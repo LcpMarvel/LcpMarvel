@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *" # 每天 UTC 00:00（北京时间 08:00）
   workflow_dispatch: {} # 也可以在 Actions 页面手动点 Run
   push:
-    branches: [main]
+    branches: [master]
     paths: # 改了模板或脚本就立刻重建
       - README.template.md
       - scripts/build-readme.ts
