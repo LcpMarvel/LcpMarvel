@@ -1,0 +1,44 @@
+name: update-readme
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天 UTC 00:00（北京时间 08:00）
+  workflow_dispatch: {} # 也可以在 Actions 页面手动点 Run
+  push:
+    branches: [main]
+    paths: # 改了模板或脚本就立刻重建
+      - README.template.md
+      - scripts/build-readme.ts
+
+permissions:
+  contents: write # commit 回 README.md
+  models: read # 调用 GitHub Models（用内置 GITHUB_TOKEN 鉴权）
+
+# 同一时间只跑一个，避免定时和手动撞车
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install --frozen-lockfile || bun install
+      - run: bun run scripts/build-readme.ts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          # 想换模型改这里；想暂时关掉 LLM 介绍：在仓库 Variables 设 NO_LLM=1
+          MODEL: openai/gpt-4o
+          NO_LLM: ${{ vars.NO_LLM }}
+      - name: commit if changed
+        run: |
+          git config user.name  "readme-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: refresh profile readme [skip ci]"
+          git push
