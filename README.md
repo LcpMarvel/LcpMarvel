@@ -23,8 +23,10 @@ _（介绍文案待补充：在仓库 Variables 里去掉 NO_LLM 即可启用自
 
 ## 📊 GitHub 统计
 
-![stats](https://github-readme-stats.vercel.app/api?username=LcpMarvel&show_icons=true&theme=transparent)
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LcpMarvel&layout=compact&theme=transparent)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LcpMarvel&show_icons=true&hide_border=true&theme=transparent" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LcpMarvel&layout=compact&hide_border=true&theme=transparent" alt="langs" />
+</p>
 
 ---
 

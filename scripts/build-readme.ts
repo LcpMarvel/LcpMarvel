@@ -45,7 +45,8 @@ function fmtDate(iso: string): string {
 async function buildRecent(): Promise<{ markdown: string; repos: Repo[] }> {
   const all = await gh<Repo[]>(`/users/${GH_USER}/repos?sort=pushed&per_page=100`);
   const repos = all
-    .filter((r) => !r.fork && !r.archived)
+    // 排除 fork、归档，以及承载本主页的 profile 仓库（名字恒等于用户名）
+    .filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== GH_USER.toLowerCase())
     .sort((a, b) => b.pushed_at.localeCompare(a.pushed_at))
     .slice(0, RECENT_LIMIT);
 
