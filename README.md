@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-专注于工具型项目的研发，从解析修复到智能代理，注重细节与稳健性，例如为复杂文档结构优化的后处理器和支持多模型协作的问答引擎。近期也在探索 Rust 和 JavaScript 的结合，以构建更高效的本地化 AI 开发工具。
+专注于构建可靠的工具与智能代理，从文本解析与修复到多模型协作路由，保持数据完整性和系统稳定性是我的核心追求。近期在探索 Rust 与 TypeScript 的结合，围绕飞书白板、AI 代理管理等场景开发实用解决方案。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
@@ -18,7 +18,7 @@
 - **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-06-14)</sub>
 - **[ask-experts-mcp](https://github.com/LcpMarvel/ask-experts-mcp)** — MCP server that routes domain-specific questions to expert LLMs (Hunyuan, Qwen, Doubao, DeepSeek, …) via OpenAI-compatible APIs — let Claude consult the right specialist on demand. <sub>(TypeScript · 2026-05-02)</sub>
 - **[agentbox](https://github.com/LcpMarvel/agentbox)** — A local AI agent management platform designed for individual developers. <sub>(Rust · ★6 · 2026-03-01)</sub>
-- **[mcp-test-skill](https://github.com/LcpMarvel/mcp-test-skill)** — — <sub>(2026-02-24)</sub>
+- **[cube-cut-3d](https://github.com/LcpMarvel/cube-cut-3d)** — — <sub>(TypeScript · 2025-12-24)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
