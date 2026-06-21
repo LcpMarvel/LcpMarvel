@@ -7,13 +7,13 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-专注于构建工具和技能，让智能代理更高效地处理复杂任务，涵盖文本解析、文档同步和跨系统交互等方向。从 Rust 到 JavaScript，我倾向于在细节上做减法：精确、稳定、少依赖，同时追求可靠性和可扩展性。
+专注于构建智能代理工具和数据处理解决方案，结合 Rust 的性能优势与 JavaScript/TypeScript 的灵活性，优化交互体验与开发效率。近期项目涵盖文档同步、白板设计、JSON 修复，以及跨模型问答系统，力图在细节处理和模块化架构上实现稳健创新。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
-- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★2 · 2026-06-18)</sub>
+- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★22 · 2026-06-18)</sub>
 - **[coze-docs-sync](https://github.com/LcpMarvel/coze-docs-sync)** — Claude Code / agent skill that mirrors the official Coze docs (docs.coze.cn, 扣子) to local Markdown — exact nav tree, original page source, via the site's own arcosite API. No browser, no login, zero deps. <sub>(JavaScript · 2026-06-17)</sub>
 - **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★2 · 2026-06-17)</sub>
 - **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-06-14)</sub>
