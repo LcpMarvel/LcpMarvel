@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-专注探索 AI 辅助工具与文档处理的边界，近期开发了多款结合 LLM 技能的实用项目，如飞书白板生成与扣子文档镜像工具，同时在数据修复与自然语言处理领域也有所实践。喜欢用 Rust 与 TypeScript 构建高可靠性的核心组件，为复杂任务设计简洁高效的解决方案。
+专注工具链和开发者体验的优化，当前研究方向包括多模态白板设计、文档同步与解析改进、以及跨领域 LLM 问答系统的集成。偏好以 Rust/JS 构建高可靠性核心组件，同时探索轻量级代理与 API 协作的可能性。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
@@ -16,7 +16,7 @@
 - **[bottleneck-migration-analysis](https://github.com/LcpMarvel/bottleneck-migration-analysis)** — — <sub>(2026-06-23)</sub>
 - **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★50 · 2026-06-18)</sub>
 - **[coze-docs-sync](https://github.com/LcpMarvel/coze-docs-sync)** — Claude Code / agent skill that mirrors the official Coze docs (docs.coze.cn, 扣子) to local Markdown — exact nav tree, original page source, via the site's own arcosite API. No browser, no login, zero deps. <sub>(JavaScript · 2026-06-17)</sub>
-- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★3 · 2026-06-17)</sub>
+- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★4 · 2026-06-17)</sub>
 - **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-06-14)</sub>
 - **[ask-experts-mcp](https://github.com/LcpMarvel/ask-experts-mcp)** — MCP server that routes domain-specific questions to expert LLMs (Hunyuan, Qwen, Doubao, DeepSeek, …) via OpenAI-compatible APIs — let Claude consult the right specialist on demand. <sub>(TypeScript · 2026-05-02)</sub>
 <!-- RECENT:END -->
