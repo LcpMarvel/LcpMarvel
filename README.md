@@ -7,14 +7,14 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-专注于工具链和自动化领域，近期在探索 Rust 和 Python 的跨语言协作，优化本地化配置管理、文档同步和图形设计等场景。喜欢用严谨的工程方法解决复杂问题，从 Steam 配置解析到飞书白板设计，都力求兼顾实用性和细节推敲。
+专注于构建高效的工具链和开发者友好的解决方案，涵盖从跨平台配置管理到智能文档同步，以及视觉设计自动化等领域。最近的工作包括一个 Rust 库，用于安全管理 Steam 本地配置，以及多个智能代理技能项目，探索生成式 AI 与实际工作流的结合。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-07-16)</sub>
-- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★4 · 2026-07-12)</sub>
+- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★5 · 2026-07-12)</sub>
 - **[macos-app-icon-designer](https://github.com/LcpMarvel/macos-app-icon-designer)** — A production-ready agent skill for designing, validating, packaging, and integrating macOS App Icons and menu bar template images. <sub>(Python · 2026-07-11)</sub>
 - **[bottleneck-migration-analysis](https://github.com/LcpMarvel/bottleneck-migration-analysis)** — — <sub>(2026-06-23)</sub>
 - **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★52 · 2026-06-18)</sub>
