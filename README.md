@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-专注于用 Rust 和现代脚本语言构建工具链，涵盖从本地配置管理到复杂文档、设计和解析任务。近期项目包括跨平台管理 Steam 配置的库、用于文档结构优化的后处理器，以及自动化设计和同步工具，强调稳健性与生产环境的适用性。
+专注于工具和库的开发，解决跨平台配置管理、文档同步和界面设计等实际问题。从 Rust 到 Python/JavaScript，探索不同技术栈的组合，为开发者提供安全、高效且易用的解决方案。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
@@ -17,7 +17,7 @@
 - **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★5 · 2026-07-12)</sub>
 - **[macos-app-icon-designer](https://github.com/LcpMarvel/macos-app-icon-designer)** — A production-ready agent skill for designing, validating, packaging, and integrating macOS App Icons and menu bar template images. <sub>(Python · 2026-07-11)</sub>
 - **[bottleneck-migration-analysis](https://github.com/LcpMarvel/bottleneck-migration-analysis)** — — <sub>(2026-06-23)</sub>
-- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★52 · 2026-06-18)</sub>
+- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★53 · 2026-06-18)</sub>
 - **[coze-docs-sync](https://github.com/LcpMarvel/coze-docs-sync)** — Claude Code / agent skill that mirrors the official Coze docs (docs.coze.cn, 扣子) to local Markdown — exact nav tree, original page source, via the site's own arcosite API. No browser, no login, zero deps. <sub>(JavaScript · 2026-06-17)</sub>
 <!-- RECENT:END -->
 
