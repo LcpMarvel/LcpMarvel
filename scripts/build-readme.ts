@@ -1,6 +1,6 @@
 /**
  * 拉取自己最新的公开仓库 → 拼出「最近在折腾」板块；
- * 把这些动态喂给 GitHub Models 写一段「介绍」；
+ * 把这些动态喂给智谱 BigModel 写一段「介绍」；
  * 然后只回填 README.template.md 里成对锚点之间的内容，产出 README.md。
  *
  * 设计取向：少兜底、早抛异常。缺 token / 接口异常一律直接 throw，
@@ -9,7 +9,9 @@
 
 const GH_USER = process.env.GH_USER ?? "LcpMarvel";
 const GH_TOKEN = process.env.GH_TOKEN;
-const MODEL = process.env.MODEL ?? "openai/gpt-4o";
+// 智谱开放平台（OpenAI 兼容）的 key，https://open.bigmodel.cn 控制台里建
+const ZHIPU_API_KEY = process.env.ZHIPU_API_KEY;
+const MODEL = process.env.MODEL ?? "glm-5.3-flash";
 const RECENT_LIMIT = 6;
 
 if (!GH_TOKEN) throw new Error("缺少 GH_TOKEN：在 workflow 里把 GITHUB_TOKEN 传进来");
@@ -69,6 +71,9 @@ async function buildIntro(repos: Repo[]): Promise<string> {
   if (noLlm) {
     return "_（介绍文案待补充：在仓库 Variables 里去掉 NO_LLM 即可启用自动生成）_";
   }
+  if (!ZHIPU_API_KEY) {
+    throw new Error("缺少 ZHIPU_API_KEY：去 https://open.bigmodel.cn 建一个 key，配置到仓库 Secrets 或本地环境变量");
+  }
 
   const context = repos
     .map((r) => `- ${r.name}: ${r.description ?? "无描述"} [${r.language ?? "?"}]`)
@@ -88,20 +93,23 @@ async function buildIntro(repos: Repo[]): Promise<string> {
     ],
   };
 
-  // GitHub Models：用 GITHUB_TOKEN 即可鉴权，需要 workflow 里 permissions: models: read
-  const res = await fetch("https://models.github.ai/inference/chat/completions", {
+  // 智谱 BigModel：OpenAI 兼容接口。注意走的是编程套餐专用通道 /api/coding/paas/v4，
+  // 用的是 Coding Plan 的额度；通用按量通道是 /api/paas/v4（需要账号有余额）。
+  // 官方口径上套餐额度限指定编码工具使用，这里是自建脚本，若哪天被限制就换回按量通道。
+  const res = await fetch("https://open.bigmodel.cn/api/coding/paas/v4/chat/completions", {
     method: "POST",
     headers: {
-      authorization: `Bearer ${GH_TOKEN}`,
+      authorization: `Bearer ${ZHIPU_API_KEY}`,
       "content-type": "application/json",
     },
     body: JSON.stringify(body),
   });
-  if (!res.ok) throw new Error(`GitHub Models → ${res.status} ${await res.text()}`);
+  if (!res.ok) throw new Error(`智谱 BigModel → ${res.status} ${await res.text()}`);
 
   const data = (await res.json()) as { choices: { message: { content: string } }[] };
+  // 混合思考模型的思考过程在 reasoning_content 里，正文只取 content
   const text = data.choices?.[0]?.message?.content?.trim();
-  if (!text) throw new Error("GitHub Models 返回空内容");
+  if (!text) throw new Error("智谱 BigModel 返回空内容");
   return text;
 }
 

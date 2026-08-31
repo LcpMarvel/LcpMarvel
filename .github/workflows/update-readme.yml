@@ -11,8 +11,7 @@ on:
       - scripts/build-readme.ts
 
 permissions:
-  contents: write # commit 回 README.md
-  models: read # 调用 GitHub Models（用内置 GITHUB_TOKEN 鉴权）
+  contents: write # commit 回 README.md（拉公开仓库列表用内置 GITHUB_TOKEN 即可）
 
 # 同一时间只跑一个，避免定时和手动撞车
 concurrency:
@@ -32,8 +31,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
-          # 想换模型改这里；想暂时关掉 LLM 介绍：在仓库 Variables 设 NO_LLM=1
-          MODEL: openai/gpt-4o
+          # 智谱 BigModel 的 key：仓库 Settings → Secrets and variables → Actions
+          # 里建一个名为 ZHIPU_API_KEY 的 secret（https://open.bigmodel.cn 控制台申请）
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          # 想换模型改这里（glm-4.6 / glm-5.3 等）；想暂时关掉 LLM 介绍：在仓库 Variables 设 NO_LLM=1
+          MODEL: glm-5.3-flash
           NO_LLM: ${{ vars.NO_LLM }}
       - name: commit if changed
         run: |
