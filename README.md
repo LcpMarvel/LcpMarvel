@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时用 Rust 居多，做的多是解决具体问题的工具：读 Steam 本地配置、抽 Dota 2 地图、清理 MinerU 的解析结果，设计上偏向只读安全、可恢复、fail-open，不给自己和上游找麻烦。最近比较多在 Claude Code 周围打转，写了个不带内置密钥的 GLM wrapper，也做了几个 agent skill，用来把飞书画布、macOS 应用图标这类活儿做得更有章法。
+最近主要在两条线上折腾：给 Claude Code 生态写 skill 和适配层，让 agent 的产出经过校验、真正能落地；同时用 Rust 做本地工具，从 Steam 配置、游戏地图数据到文档解析结果的精细后处理都有涉及。写这类工具时习惯把边界做扎实——只读优先、可恢复、fail-open，尽量不搞崩上游。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
