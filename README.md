@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在两条线上折腾：给 Claude Code 生态写 skill 和适配层，让 agent 的产出经过校验、真正能落地；同时用 Rust 做本地工具，从 Steam 配置、游戏地图数据到文档解析结果的精细后处理都有涉及。写这类工具时习惯把边界做扎实——只读优先、可恢复、fail-open，尽量不搞崩上游。
+主写 Rust，做的多是 JSON 修复、文档解析后处理、本地配置读写这类容错要求高的活儿，原则是宁可 fail-open，也绝不静默丢数据、不搞崩上游。游戏侧给 Dota 2 和 Steam 做过一些读本地数据的工具，看重可恢复和可溯源。最近在折腾 Claude Code 生态，写 agent skill，也给 GLM 做了个不内嵌密钥的接入包装。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
+- **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-09-01)</sub>
 - **[zclaude](https://github.com/LcpMarvel/zclaude)** — Portable Claude Code wrapper for Zhipu/Z.ai GLM — no embedded API keys <sub>(Shell · 2026-08-31)</sub>
 - **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★57 · 2026-08-31)</sub>
 - **[dota2-map-visual-kit](https://github.com/LcpMarvel/dota2-map-visual-kit)** — Read-only Rust toolkit for extracting Dota 2 map overviews, world-to-pixel projections, and VPK provenance. <sub>(Rust · 2026-08-10)</sub>
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-07-16)</sub>
 - **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★10 · 2026-07-12)</sub>
-- **[macos-app-icon-designer](https://github.com/LcpMarvel/macos-app-icon-designer)** — A production-ready agent skill for designing, validating, packaging, and integrating macOS App Icons and menu bar template images. <sub>(Python · ★1 · 2026-07-11)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
