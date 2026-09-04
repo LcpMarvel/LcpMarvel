@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-主写 Rust，做的多是 JSON 修复、文档解析后处理、本地配置读写这类容错要求高的活儿，原则是宁可 fail-open，也绝不静默丢数据、不搞崩上游。游戏侧给 Dota 2 和 Steam 做过一些读本地数据的工具，看重可恢复和可溯源。最近在折腾 Claude Code 生态，写 agent skill，也给 GLM 做了个不内嵌密钥的接入包装。
+主要用 Rust 写一些收拾真实世界脏数据的工具：修复损坏的 JSON、后处理文档解析结果、安全读写 Steam 本地配置，基本原则是不抛异常、不丢数据、不擅自改动。另一条线是 AI 工作流，比如让 Claude Code 接入智谱 GLM，或者让 agent 产出真正有设计感的飞书画板。偶尔也从 Dota 2 的游戏文件里提取点地图素材。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
@@ -18,7 +18,7 @@
 - **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★57 · 2026-08-31)</sub>
 - **[dota2-map-visual-kit](https://github.com/LcpMarvel/dota2-map-visual-kit)** — Read-only Rust toolkit for extracting Dota 2 map overviews, world-to-pixel projections, and VPK provenance. <sub>(Rust · 2026-08-10)</sub>
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-07-16)</sub>
-- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★10 · 2026-07-12)</sub>
+- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★11 · 2026-07-12)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
