@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时主要写 Rust 工具，做的事大多围绕一条底线：解析和修复不丢数据、不崩上游，比如 JSON repair、MinerU 结果后处理、Steam 本地配置的读写与恢复。最近也在给 Claude Code 做周边，包括接智谱 GLM 的可移植封装，以及生成飞书白板的 agent skill。偶尔写点游戏向的工具，比如从 Dota 2 地图提取俯视图和坐标投影。
+主力写 Rust，做的多是收拾真实世界脏数据的工具——JSON 修复、文档解析后处理、游戏文件和本地配置的读取，共同点是宁可原样返回，也不悄悄丢字或让上游崩掉。另一部分时间花在 Claude Code 生态上，做 GLM 的便携接入，也试着给 agent 的产出加一道设计审查。偶尔给 Dota 2 和 Steam 写些只读的周边工具。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
@@ -15,7 +15,7 @@
 <!-- RECENT:START -->
 - **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-09-01)</sub>
 - **[zclaude](https://github.com/LcpMarvel/zclaude)** — Portable Claude Code wrapper for Zhipu/Z.ai GLM — no embedded API keys <sub>(Shell · 2026-08-31)</sub>
-- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★57 · 2026-08-31)</sub>
+- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★58 · 2026-08-31)</sub>
 - **[dota2-map-visual-kit](https://github.com/LcpMarvel/dota2-map-visual-kit)** — Read-only Rust toolkit for extracting Dota 2 map overviews, world-to-pixel projections, and VPK provenance. <sub>(Rust · 2026-08-10)</sub>
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-07-16)</sub>
 - **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★11 · 2026-07-12)</sub>
