@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-主要用 Rust 做工具开发，集中在解析和修复这类事上：JSON 修复、文档解析结果的后处理、Steam 与 Dota 2 本地文件的安全读写。这些项目共享一条底线——不抛异常、不丢数据、不新增一字，修不好就原样放行，绝不悄悄吞掉。最近也在折腾 Claude Code 周边，包括对接 GLM 的可移植封装，和生成真正有排版设计的飞书白板 agent skill。
+平时主要用 Rust 和 Go 写解决具体问题的小工具，从本地视频下载、游戏配置管理到给 Agent 用的技能封装。写东西时比较在意失败路径：库不抛异常、配置改坏能恢复、密钥不往工具里硬编码，让程序出错时行为依然可预期。最近也在把 CLI 做得对脚本和 AI Agent 更友好，结构化输出加稳定的退出码，方便被其他程序直接调用。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
+- **[sph-downloader](https://github.com/LcpMarvel/sph-downloader)** — 微信视频号本地下载 CLI · 纯 Go 单二进制 · 登录一次即可把分享链接下载成 MP4 · --json 输出与稳定退出码，适合脚本和 AI Agent 调用 <sub>(Go · 2026-09-19)</sub>
 - **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-09-01)</sub>
 - **[zclaude](https://github.com/LcpMarvel/zclaude)** — Portable Claude Code wrapper for Zhipu/Z.ai GLM — no embedded API keys <sub>(Shell · 2026-08-31)</sub>
-- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★59 · 2026-08-31)</sub>
+- **[feishu-whiteboard-pro](https://github.com/LcpMarvel/feishu-whiteboard-pro)** — A Claude Code / agent skill for building genuinely designed, editable Feishu / Lark (飞书) whiteboards — deliberate composition, real hierarchy, a gated pipeline with pre-render fit-check and independent design critique. <sub>(JavaScript · ★60 · 2026-08-31)</sub>
 - **[dota2-map-visual-kit](https://github.com/LcpMarvel/dota2-map-visual-kit)** — Read-only Rust toolkit for extracting Dota 2 map overviews, world-to-pixel projections, and VPK provenance. <sub>(Rust · 2026-08-10)</sub>
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-07-16)</sub>
-- **[mineru-refine](https://github.com/LcpMarvel/mineru-refine)** — MinerU 解析结果后处理器：修复伪标题、跨页断句/拆表、页面家具，绝不新增一字、fail-open 不搞崩上游。Rust 核心，Python/JS  绑定。 <sub>(Rust · ★12 · 2026-07-12)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
