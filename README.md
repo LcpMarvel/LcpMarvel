@@ -7,13 +7,13 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-主要写命令行工具和给 AI Agent 用的技能，比较在意稳定退出码、规范的 JSON 输出、出错不静默吞数据这类对调用方友好的细节。最近的事多围绕编码 Agent 的生态展开：给 GLM 做不内置密钥的封装、写设计 macOS 图标和生成 BPMN 流程图的技能，也顺手维护一个不抛错也不丢数据的 JSON 修复库。做工具偏好单二进制、登录一次就能用，尽量少让人操心配置。
+最近主要在把 AI Agent 接到具体事务上，写了几个能被 Claude Code、Codex 直接调用的 Skill，从 macOS 图标设计、BPMN 流程图到微信视频号的发布与定时，都是让模型一次跑完从描述到成品的流程。工具侧偏好 Rust，习惯单二进制交付，也顺手维护着一个不抛错、不静默丢数据的 JSON 修复库。平时折腾得比较多的是 AI 编码工具的本地化，比如给 Claude Code 换 GLM 后端的便携包装。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
-- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地下载 CLI · 纯 Go 单二进制 · 登录一次即可把分享链接下载成 MP4 · --json 输出与稳定退出码，适合脚本和 AI Agent 调用 <sub>(Rust · 2026-09-25)</sub>
+- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-09-25)</sub>
 - **[macos-app-icon-designer](https://github.com/LcpMarvel/macos-app-icon-designer)** — A production-ready agent skill for designing, validating, packaging, and integrating macOS App Icons and menu bar template images. <sub>(Python · ★1 · 2026-09-23)</sub>
 - **[build-notes](https://github.com/LcpMarvel/build-notes)** — Share Codex discoveries, build notes, and releases on X with a source-aware content desk. <sub>(2026-09-23)</sub>
 - **[tramito-skill](https://github.com/LcpMarvel/tramito-skill)** — Tramito BPMN assistant skill — describe a business process, get a standard BPMN 2.0 file plus an online viewer link (bpmn-js rendered, one-click PNG export). 流程图助手公开技能。 <sub>(JavaScript · 2026-09-21)</sub>
