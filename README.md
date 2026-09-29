@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时主要用 Rust 写命令行工具，偏爱单二进制、不抛异常这类省心的设计，做过微信视频号自动化 CLI 和一个既不报错也不悄悄丢数据的 JSON 修复库。最近的重心在 agent 生态：给 Claude Code 写插件，也做了一批能被 Claude Code、Codex 等工具直接调用的 Agent Skill，覆盖视频发布、图标设计、流程图生成这类具体场景。比起宏大叙事，更在意工具在真实工作流里到底好不好用。
+最近做的事大多围绕 AI Agent 工具链：给 Claude Code、Codex、Gemini 写技能和插件，也用 Rust 写本地自动化 CLI，比如微信视频号的发布与批量管理工具。偶尔碰点编译器方向的活儿，比如带前端诊断和自研 edge 路由的 BPMN 布局编译器。语言按场景选，Rust、TypeScript、Python 都在用。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
+- **[tramito-layout](https://github.com/LcpMarvel/tramito-layout)** — ELK-BPMN JSON → laid-out BPMN 2.0 XML。一个 BPMN 布局编译器：前端校验诊断 + elkjs 摆位 + 自研 edge 路由。 <sub>(TypeScript · 2026-09-29)</sub>
+- **[gemini-tts-director](https://github.com/LcpMarvel/gemini-tts-director)** — An AI agent skill for expressive Gemini TTS: voice discovery, readable scripts, character casting, native dialogue, and crowd mixing. <sub>(Python · 2026-09-28)</sub>
 - **[semantic-compact](https://github.com/LcpMarvel/semantic-compact)** — Claude Code plugin: suggests /compact or /clear when a new task begins — task-boundary detection on every prompt, reminder only <sub>(Rust · 2026-09-27)</sub>
 - **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-09-27)</sub>
 - **[macos-app-icon-designer](https://github.com/LcpMarvel/macos-app-icon-designer)** — A production-ready agent skill for designing, validating, packaging, and integrating macOS App Icons and menu bar template images. <sub>(Python · ★1 · 2026-09-23)</sub>
 - **[build-notes](https://github.com/LcpMarvel/build-notes)** — Share Codex discoveries, build notes, and releases on X with a source-aware content desk. <sub>(2026-09-23)</sub>
-- **[tramito-skill](https://github.com/LcpMarvel/tramito-skill)** — Tramito BPMN assistant skill — describe a business process, get a standard BPMN 2.0 file plus an online viewer link (bpmn-js rendered, one-click PNG export). 流程图助手公开技能。 <sub>(JavaScript · 2026-09-21)</sub>
-- **[safe-json-repair](https://github.com/LcpMarvel/safe-json-repair)** — A JSON repair library that never throws and never silently drops data <sub>(Rust · 2026-09-01)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
