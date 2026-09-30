@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近做的事大多围绕 AI Agent 工具链：给 Claude Code、Codex、Gemini 写技能和插件，也用 Rust 写本地自动化 CLI，比如微信视频号的发布与批量管理工具。偶尔碰点编译器方向的活儿，比如带前端诊断和自研 edge 路由的 BPMN 布局编译器。语言按场景选，Rust、TypeScript、Python 都在用。
+最近主要在做 AI agent skill：让 agent 能把查证过的资料写成适合听的简报、做有表现力的配音、把业务流程描述直接转成 BPMN 图，也给 Claude Code 写过任务边界检测的插件。偏系统层的工具习惯用 Rust，比如微信视频号的自动化 CLI。日常在 Python、TypeScript 和 Rust 之间切换。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
-- **[tramito-layout](https://github.com/LcpMarvel/tramito-layout)** — ELK-BPMN JSON → laid-out BPMN 2.0 XML。一个 BPMN 布局编译器：前端校验诊断 + elkjs 摆位 + 自研 edge 路由。 <sub>(TypeScript · 2026-09-29)</sub>
+- **[briefcast](https://github.com/LcpMarvel/briefcast)** — Turn any topic into a listener-ready text brief — an AI agent skill for research, verification, and ear-first writing <sub>(Python · 2026-09-30)</sub>
+- **[tramito-skill](https://github.com/LcpMarvel/tramito-skill)** — Tramito BPMN assistant skill — describe a business process, get a standard BPMN 2.0 file plus an online viewer link (bpmn-js rendered, one-click PNG export). 流程图助手公开技能。 <sub>(JavaScript · 2026-09-29)</sub>
+- **[tramito-layout](https://github.com/LcpMarvel/tramito-layout)** — A BPMN layout compiler: ELK-BPMN JSON in → laid-out BPMN 2.0 XML out. elkjs placement + hand-rolled edge routing + LLM-friendly validation diagnostics. <sub>(TypeScript · ★1 · 2026-09-29)</sub>
 - **[gemini-tts-director](https://github.com/LcpMarvel/gemini-tts-director)** — An AI agent skill for expressive Gemini TTS: voice discovery, readable scripts, character casting, native dialogue, and crowd mixing. <sub>(Python · 2026-09-28)</sub>
 - **[semantic-compact](https://github.com/LcpMarvel/semantic-compact)** — Claude Code plugin: suggests /compact or /clear when a new task begins — task-boundary detection on every prompt, reminder only <sub>(Rust · 2026-09-27)</sub>
 - **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-09-27)</sub>
-- **[macos-app-icon-designer](https://github.com/LcpMarvel/macos-app-icon-designer)** — A production-ready agent skill for designing, validating, packaging, and integrating macOS App Icons and menu bar template images. <sub>(Python · ★1 · 2026-09-23)</sub>
-- **[build-notes](https://github.com/LcpMarvel/build-notes)** — Share Codex discoveries, build notes, and releases on X with a source-aware content desk. <sub>(2026-09-23)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
