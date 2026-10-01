@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在做 AI agent skill：让 agent 能把查证过的资料写成适合听的简报、做有表现力的配音、把业务流程描述直接转成 BPMN 图，也给 Claude Code 写过任务边界检测的插件。偏系统层的工具习惯用 Rust，比如微信视频号的自动化 CLI。日常在 Python、TypeScript 和 Rust 之间切换。
+最近大半时间在写 AI agent 的 skill：语音方向给豆包和 Gemini 各做了一个 TTS 技能，多音字校对、选角配音这些细节都管；自动化方向把视频号发布和 BPMN 流程图做成了 CLI 或技能，一条 npx 命令就能让 Claude Code、Codex 这类工具直接调用。比起能跑的 demo，更想把东西打磨到别人装上就能用的程度。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
+- **[volce-tts-director](https://github.com/LcpMarvel/volce-tts-director)** — 火山引擎豆包中文 TTS skill：多音字校对、语音指令、引用上文与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-09-30)</sub>
+- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-09-30)</sub>
 - **[briefcast](https://github.com/LcpMarvel/briefcast)** — Turn any topic into a listener-ready text brief — an AI agent skill for research, verification, and ear-first writing <sub>(Python · 2026-09-30)</sub>
 - **[tramito-skill](https://github.com/LcpMarvel/tramito-skill)** — Tramito BPMN assistant skill — describe a business process, get a standard BPMN 2.0 file plus an online viewer link (bpmn-js rendered, one-click PNG export). 流程图助手公开技能。 <sub>(JavaScript · 2026-09-29)</sub>
 - **[tramito-layout](https://github.com/LcpMarvel/tramito-layout)** — A BPMN layout compiler: ELK-BPMN JSON in → laid-out BPMN 2.0 XML out. elkjs placement + hand-rolled edge routing + LLM-friendly validation diagnostics. <sub>(TypeScript · ★1 · 2026-09-29)</sub>
 - **[gemini-tts-director](https://github.com/LcpMarvel/gemini-tts-director)** — An AI agent skill for expressive Gemini TTS: voice discovery, readable scripts, character casting, native dialogue, and crowd mixing. <sub>(Python · 2026-09-28)</sub>
-- **[semantic-compact](https://github.com/LcpMarvel/semantic-compact)** — Claude Code plugin: suggests /compact or /clear when a new task begins — task-boundary detection on every prompt, reminder only <sub>(Rust · 2026-09-27)</sub>
-- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-09-27)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
