@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近大半时间在写 AI agent 的 skill：语音方向给豆包和 Gemini 各做了一个 TTS 技能，多音字校对、选角配音这些细节都管；自动化方向把视频号发布和 BPMN 流程图做成了 CLI 或技能，一条 npx 命令就能让 Claude Code、Codex 这类工具直接调用。比起能跑的 demo，更想把东西打磨到别人装上就能用的程度。
+最近主要在写 AI agent skill：让 TTS 有导演视角、把一句流程描述变成标准 BPMN、把一个话题整理成能直接听的 brief，大多可以通过 npx skills 装进 Claude Code 这类工具里用。也顺手做本地自动化的命令行工具，比如用 Rust 写的视频号发布 CLI，编译出来就是单个二进制。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
