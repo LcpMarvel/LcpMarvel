@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在写 AI agent skill：让 TTS 有导演视角、把一句流程描述变成标准 BPMN、把一个话题整理成能直接听的 brief，大多可以通过 npx skills 装进 Claude Code 这类工具里用。也顺手做本地自动化的命令行工具，比如用 Rust 写的视频号发布 CLI，编译出来就是单个二进制。
+最近主要在写 AI agent skill，方向有两个：TTS（火山豆包的中文语音、Gemini 的表现力配音）和结构化产出（BPMN 流程图助手、把话题整理成可朗读简报的工具），都能用 npx skills 一条命令装上。另外用 Rust 维护着一个微信视频号本地自动化 CLI。这些项目背后是同一个想法：让 agent 直接产出拿来就能用的东西，而不是还要再加工的半成品。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
