@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在写 AI Agent Skill——给 Claude Code、Codex 这类工具做拿来即用的技能包，方向集中在 TTS（豆包中文和 Gemini）、BPMN 流程图生成、把话题整理成适合听的简报这几块。也写本地自动化 CLI，偏好 Rust 单二进制，装完就能跑。比起追新模型，更在意 Agent 怎么嵌进真实的工作流里。
+平时主要做 AI agent skill 方向：语音合成写得最多，给 Gemini 和豆包中文 TTS 都做了带脚本编排能力的 skill；BPMN 流程图这块，从自然语言描述到标准文件生成、自动排版也各有覆盖。工具侧则偏本地自动化，比如用 Rust 写的微信视频号发布 CLI。习惯把成果打包成能通过 npx skills 一键安装的技能，让 Claude Code、Codex 这类工具直接调用。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
