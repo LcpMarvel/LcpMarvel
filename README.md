@@ -7,14 +7,14 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近写的多是 AI agent 的 skill：一部分围绕语音合成，从音色挑选、台词改写到直接生成音频；另一部分偏内容生产，比如把流程描述转成 BPMN 图、把话题整理成适合播读的文稿。也用 Rust 写了些本地自动化工具，比如微信视频号的发布 CLI，可以让 Claude Code 这类 AI 工具直接调用。
+最近主要在做 AI agent 的 skill 和配套工具链：给豆包、Gemini 做 TTS 的编排与校对，把业务流程描述编译成自动布局的 BPMN 文件，也用 Rust 写了视频号的本地发布自动化。比较在意让模型自己能发现并修正问题，所以多音字校对、布局冲突诊断这类都直接内置在工具里。主力语言是 Python 和 Rust，多数工具可以通过 npx skills 直接安装。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
-- **[volce-tts-director](https://github.com/LcpMarvel/volce-tts-director)** — 火山引擎豆包中文 TTS skill：多音字校对、语音指令、引用上文与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-09-30)</sub>
-- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-09-30)</sub>
+- **[volce-tts-director](https://github.com/LcpMarvel/volce-tts-director)** — 火山引擎豆包中文 TTS skill：多音字校对、语音指令、引用上文与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-10-08)</sub>
+- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · 2026-10-08)</sub>
 - **[briefcast](https://github.com/LcpMarvel/briefcast)** — Turn any topic into a listener-ready text brief — an AI agent skill for research, verification, and ear-first writing <sub>(Python · 2026-09-30)</sub>
 - **[tramito-skill](https://github.com/LcpMarvel/tramito-skill)** — Tramito BPMN assistant skill — describe a business process, get a standard BPMN 2.0 file plus an online viewer link (bpmn-js rendered, one-click PNG export). 流程图助手公开技能。 <sub>(JavaScript · 2026-09-29)</sub>
 - **[tramito-layout](https://github.com/LcpMarvel/tramito-layout)** — A BPMN layout compiler: ELK-BPMN JSON in → laid-out BPMN 2.0 XML out. elkjs placement + hand-rolled edge routing + LLM-friendly validation diagnostics. <sub>(TypeScript · ★1 · 2026-09-29)</sub>
