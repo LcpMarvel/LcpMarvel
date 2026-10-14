@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在给 AI agent 写 skill，语音方向做得最多——给 Gemini 和豆包的 TTS 各做了一套导演式的控制，也在把主题资料整理成适合收听的简报。其余是些解决自己问题的工具：让 Claude Code 跑 OpenAI 模型的本地桥接、微信视频号的自动化 CLI，以及从一段流程描述直接生成 BPMN 文件的助手。
+最近主要在写 Agent Skill，给 Claude Code、Codex 这类工具添本事：比如调度多引擎 TTS 做配音、角色对白和中文多音字校对，把调研内容写成适合听的稿件，或者把业务流程描述直接转成 BPMN 图。配套也做了些趁手的工具，包括 Rust 写的视频号本地自动化 CLI，以及让 OpenAI 模型跑在 Claude Code 里的本地代理。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
