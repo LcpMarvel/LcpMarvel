@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近做的多是 AI Agent 的 skill 和配套 CLI 工具：从中文 TTS 的表达与多音字控制、把业务流程描述转成标准 BPMN，到微信视频号的本地自动化，核心是让模型能嵌进真实工作流直接干活。也在打通不同模型生态，比如通过本地代理让 OpenAI 模型跑进 Claude Code。Python 和 Rust 都写，习惯把东西做成一行命令就能装、人和 Agent 都能直接调用的形态。
+最近主要在写 AI Agent Skill，让 Claude Code、Codex 这类工具能直接落地干活：中英文 TTS 配音、中文多音字校对、播客稿写作、业务流程转 BPMN，各占一个。也维护几个本地 CLI，比如微信视频号自动化工具，和把 OpenAI 模型接进 Claude Code 的本地代理。总体偏好本地优先、单二进制，装完即用。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
