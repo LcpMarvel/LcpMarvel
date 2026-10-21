@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在写 AI Agent Skill，让 Claude Code、Codex 这类工具能直接落地干活：中英文 TTS 配音、中文多音字校对、播客稿写作、业务流程转 BPMN，各占一个。也维护几个本地 CLI，比如微信视频号自动化工具，和把 OpenAI 模型接进 Claude Code 的本地代理。总体偏好本地优先、单二进制，装完即用。
+最近主要在给 AI agent 写 skill，让 Claude Code、Codex 这类工具能直接完成 TTS 配音、视频号发布、BPMN 流程图生成这类具体任务，其中语音合成做得最多，覆盖了 Gemini 和火山豆包两套。另外也写些桥接工具，比如让 Claude Code 通过本地代理直接跑 OpenAI 模型。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
