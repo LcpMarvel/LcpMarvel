@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时写 Python 和 Rust，最近主要在给 Claude Code、Codex 这类 AI 编程工具做 Agent Skill，让它们能直接完成配音、画流程图、发视频号这些实际任务。语音合成投入最多，Gemini 和火山豆包各有一套带角色分配、多音字校对的 TTS 方案，底层则靠一些自写的本地 CLI 把模型接进真实的工作流。
+最近主要在为 AI Agent 写 Skills，让模型能稳稳接住具体活儿——从有表现力的中文 TTS、把选题做成可听的音频简报，到把业务流程描述转成标准 BPMN 图，还配了个 Rust 写的微信视频号本地自动化 CLI。顺手做了个桥接工具，让 Claude Code 能直接跑 OpenAI 的模型。整体思路就是把 Agent 落到具体工作流上：本地能跑、接得上真实环节、看得见结果。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
