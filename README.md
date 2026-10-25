@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在为 AI Agent 写 Skills，让模型能稳稳接住具体活儿——从有表现力的中文 TTS、把选题做成可听的音频简报，到把业务流程描述转成标准 BPMN 图，还配了个 Rust 写的微信视频号本地自动化 CLI。顺手做了个桥接工具，让 Claude Code 能直接跑 OpenAI 的模型。整体思路就是把 Agent 落到具体工作流上：本地能跑、接得上真实环节、看得见结果。
+最近主要在写 AI Agent 技能，让 Claude Code、Codex 这类工具能直接干活：中文和英文 TTS 的语音导演、把任意话题变成可听的播客文稿、生成 BPMN 流程图，还有微信视频号的本地自动化发布。偏好 CLI 和本地运行，Rust、Python 混着写。偶尔也做点桥接工作，比如让 Claude Code 通过本地代理跑 OpenAI 模型。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
