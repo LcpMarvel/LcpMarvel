@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时写 Rust 比较多，偏本地自动化方向：做过 Steam 本地配置的安全读写与恢复，也做了微信视频号的发布、定时、批量下载 CLI。最近折腾比较多的是 AI agent skill，Gemini 和火山豆包的 TTS 各做了一套，还有把 OpenAI 模型接进 Claude Code 的本地桥接。这些大多围绕同一个想法：让模型能直接接上实际的工作流。
+主要写 Rust 命令行工具和 AI agent skill，事情大多发生在本地：Steam 配置的读写恢复、视频号的定时批量发布，或者给 Claude Code 桥接 OpenAI 模型。最近集中在语音这条线上，给 Gemini 和豆包各做了配音 skill，也试着把资料整理成适合听的简报。比起对话本身，更感兴趣让 AI 直接操作软件、把事情跑完。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
