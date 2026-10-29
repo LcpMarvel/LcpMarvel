@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在两个方向：一是用 Rust 写本地自动化工具，从 git worktree 共享构建缓存、Steam 配置管理到视频号批量发布，大多是解决自己日常流程里遇到的摩擦；二是给 Claude Code、Codex 这类 agent 写 skill，让它们能直接完成 TTS 配音、多音字校对、模型桥接这些具体任务。
+平时写 Rust 和 Python，做的东西以命令行工具为主，能做成单二进制就做成单二进制，从 Steam 本地配置管理到微信视频号发布自动化都有。最近投入最多的是 AI Agent Skill，尤其 TTS 方向：给 Gemini 和豆包语音补上选角、台词润色、多音字校对这些「导演」能力，也顺手让 Claude Code 能跑 OpenAI 模型。其余时间喜欢折腾开发体验上的小改进，比如让 git worktree 通过 APFS clonefile 复用 Rust 编译产物。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
