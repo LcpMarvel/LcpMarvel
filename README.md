@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时主要用 Rust 写命令行工具，解决构建加速、本地配置管理、视频号自动发布这类具体问题。最近的重心在 AI Agent 的 skill 上，让 Claude Code、Codex 等工具能直接调用语音合成和发布流程，也顺手做了个代理把 OpenAI 模型接进 Claude Code。
+平时用 Rust 写些解决本地问题的工具，从 macOS 构建缓存共享、Steam 配置管理到微信视频号的自动化发布。近来也常给 Claude Code 这类 AI agent 写 skill，集中在 TTS 语音生成上，中文配音的多音字和语气细节没少折腾。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
