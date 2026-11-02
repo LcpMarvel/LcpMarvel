@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-平时写 Rust 和 Python，喜欢做贴着本地环境跑的小工具：复用 worktree 的构建缓存、安全读写 Steam 配置、视频号自动发布，大多是单二进制 CLI。最近的精力放在 AI Agent Skill 上，让 Claude Code、Codex 这类 agent 能直接完成 TTS 配音、多音字校对、批量发布这些具体任务。也会顺手做点桥接类的东西，比如让 OpenAI 模型跑在 Claude Code 里。
+平时写一些 Rust CLI 工具，解决本地工作流里的具体问题：git worktree 构建加速、Steam 配置管理、视频号发布自动化。最近重心更多放在 agent skill 上，让 Claude Code 这类 AI 工具能直接接管 TTS 配音、调用本地命令这些环节。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
