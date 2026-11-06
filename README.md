@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-用 Rust 和 Python 写东西，最近集中在两块：Steam 配置管理、视频号发布自动化这类本地工具，以及围绕 TTS 和音频内容的 agent skill——给 Gemini、豆包这些模型封装从文案到配音的流程。也在处理 agent 和模型之间的衔接问题，比如让 Claude Code 通过本地代理直接调用 OpenAI 的模型。
+平时主要用 Rust 写本地工具，做过 Steam 配置管理和微信视频号自动化这类贴近桌面的场景。最近更多精力放在给 AI Agent 做技能上：语音方向写过 Gemini 和豆包 TTS 的脚本调度与角色分配，也折腾过让 Claude Code 跑 OpenAI 模型的桥接方案。习惯把工具做成单二进制或 npx skills 可安装的形式，方便 Claude Code、Codex 等各种 Agent 直接调用。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
