@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-用 Rust 写本地优先的命令行工具是主线，从视频号发布自动化到 Steam 本地配置管理，一般做成单二进制、装上就能跑。最近另一条线是写 Agent Skill，让 Claude Code、Codex 这类 AI 工具能直接调用本地能力，语音合成方向（Gemini、豆包）做得比较多。两条线想解决的是同一件事：把本地环境里重复的操作交给 Agent 去跑。
+最近主要在做两件事：一是给 AI Agent 补语音能力，围绕中文 TTS 的多音字纠音、语气与停顿控制做了几个可直接安装的 skill；二是写本地自动化工具，用 Rust 做了微信视频号发布、Steam 配置管理这类 CLI。偶尔也折腾模型桥接，让 OpenAI 的模型能在 Claude Code 里跑起来。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
+- **[minimax-tts-director](https://github.com/LcpMarvel/minimax-tts-director)** — MiniMax 中文 TTS skill：多音字行内纠音、IPA 发音字典、语气词与停顿、网页声音复刻与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-11-10)</sub>
 - **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · ★1 · 2026-11-09)</sub>
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-10-25)</sub>
 - **[gemini-tts-director](https://github.com/LcpMarvel/gemini-tts-director)** — An AI agent skill for expressive Gemini TTS: voice discovery, readable scripts, character casting, native dialogue, and crowd mixing. <sub>(Python · 2026-10-12)</sub>
 - **[volce-tts-director](https://github.com/LcpMarvel/volce-tts-director)** — 火山引擎豆包中文 TTS skill：多音字校对、语音指令、引用上文与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-10-12)</sub>
 - **[oclaude](https://github.com/LcpMarvel/oclaude)** — Run OpenAI models in Claude Code through a local CLIProxyAPI bridge with Codex/ChatGPT OAuth, model mapping, and engineering prompts. <sub>(Python · 2026-10-11)</sub>
-- **[briefcast](https://github.com/LcpMarvel/briefcast)** — Turn any topic into a listener-ready text brief — an AI agent skill for research, verification, and ear-first writing <sub>(Python · 2026-09-30)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
