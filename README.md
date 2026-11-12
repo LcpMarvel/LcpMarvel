@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近精力大多花在 TTS 方向的 Agent Skill 上，为 MiniMax、Gemini、火山豆包等服务各写了一套，重点打磨中文合成的细节——多音字、语气词、停顿这些，都能用 npx skills 一行装上。另一些时间在写 Rust CLI，比如视频号本地自动化和 Steam 配置管理，多数设计成可以直接被 Claude Code 这类 AI 工具调用。
+最近主要在做两件事：一是中文 TTS 的 agent skill，覆盖 MiniMax、Gemini、豆包几家引擎，重点抠多音字纠音、停顿语气这些合成里常被忽略的细节；二是用 Rust 写本地工具，比如视频号自动化 CLI 和 Steam 配置管理，都做成能被 Claude Code 这类 agent 直接调用的形式。偶尔也搭个桥，让 OpenAI 的模型跑进 Claude Code。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
