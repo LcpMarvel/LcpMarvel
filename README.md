@@ -7,18 +7,18 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在做 TTS 方向的 agent skill，围绕 MiniMax、火山豆包、Gemini 各写了一套，重点解决中文合成的实际痛点——多音字纠音、停顿、语气词，让机器说话更像人。闲下来会用 Rust 写些本地工具，比如视频号自动发布、Steam 配置管理，习惯把这些繁琐操作做成单命令或能被 Agent 直接调用的 skill。
+最近主要在做两类东西：中文 TTS 的 Agent Skill，MiniMax、豆包、Gemini 各写了一个，重点解决多音字纠音、语气停顿这些朗读细节；以及用 Rust 写的本地自动化工具，比如视频号发布和 Steam 配置管理，顺手都做成能被 Claude Code 这类 AI 工具直接调用的形态。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
 
 <!-- RECENT:START -->
+- **[trojan-installer](https://github.com/LcpMarvel/trojan-installer)** — — <sub>(Shell · 2026-11-20)</sub>
 - **[minimax-tts-director](https://github.com/LcpMarvel/minimax-tts-director)** — MiniMax 中文 TTS skill：多音字行内纠音、IPA 发音字典、语气词与停顿、网页声音复刻与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-11-10)</sub>
-- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · ★1 · 2026-11-09)</sub>
+- **[sph](https://github.com/LcpMarvel/sph)** — 微信视频号本地自动化 CLI · Rust 单二进制 · 发布/定时/批量/下载 · 自带 Agent Skill，Claude Code / Codex 等 90+ AI 工具可直接调用（npx skills add LcpMarvel/sph） <sub>(Rust · ★2 · 2026-11-09)</sub>
 - **[steam-local-kit](https://github.com/LcpMarvel/steam-local-kit)** — 跨平台 Rust 库：发现 Steam 安装，安全读取、编辑和恢复本地配置。Cross-platform Rust library for safely managing local Steam configuration. <sub>(Rust · 2026-10-25)</sub>
 - **[gemini-tts-director](https://github.com/LcpMarvel/gemini-tts-director)** — An AI agent skill for expressive Gemini TTS: voice discovery, readable scripts, character casting, native dialogue, and crowd mixing. <sub>(Python · 2026-10-12)</sub>
 - **[volce-tts-director](https://github.com/LcpMarvel/volce-tts-director)** — 火山引擎豆包中文 TTS skill：多音字校对、语音指令、引用上文与音频生成，可通过 npx skills 安装。 <sub>(Python · 2026-10-12)</sub>
-- **[oclaude](https://github.com/LcpMarvel/oclaude)** — Run OpenAI models in Claude Code through a local CLIProxyAPI bridge with Codex/ChatGPT OAuth, model mapping, and engineering prompts. <sub>(Python · 2026-10-11)</sub>
 <!-- RECENT:END -->
 
 ## 📊 GitHub 统计
