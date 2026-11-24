@@ -7,7 +7,7 @@
 # 你好，我是 LcpMarvel 👋
 
 <!-- INTRO:START -->
-最近主要在做两类东西：给各家中文 TTS（MiniMax、豆包、Gemini）写 Agent Skill，抠多音字、语气词、停顿这些让中文配音听起来自然的细节；以及用 Rust 写本地自动化工具，视频号发布、Steam 配置管理都做成单二进制，顺手封装成 Skill 让 Claude Code、Codex 直接调。比起堆 API 调用，更在意让 AI 能真正落到本机环境里干活。
+最近主要在做两个方向：一是给 MiniMax、Gemini、豆包等 TTS 引擎写中文语音 skill，把多音字纠音、停顿语气这类细节做扎实；二是用 Rust 写本地自动化工具，比如微信视频号发布下载的 CLI、Steam 本地配置管理。这些工具尽量做成单二进制，也顺手封装成 skill，让 Claude Code 等 AI 工具能直接调用。
 <!-- INTRO:END -->
 
 ## 🛠 最近在折腾
